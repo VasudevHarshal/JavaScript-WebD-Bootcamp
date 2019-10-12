@@ -1,0 +1,64 @@
+<!--Forms: Container where all our input will go 
+    action="" where data is going
+    method="" what type of HTTP request is sent(get/post)
+    
+    <input type=""> goes inside forms
+    type=text,date,color,file,checkbox etc.
+
+    <button>Submit</button>
+        <input type="Submit">
+        both does the same thing
+
+    in <form> if you dont specify action it will go where it was i.e refreshes the page 
+    If method is not specified then by default a get request  
+     <form action="http://google.com"  method="get">
+    
+    Once the form is submit the data is sent is sent along the reguest	
+     
+    takes to goole and add data username and passwod there
+    
+
+    Labeltag is for visually impaired or blind and accedsssing form the screen reader software will read the label to them and also acts as a caption
+
+    <label> has two syntax see below, one for username one for password
+
+    Validator: tells us that what a password must have, is this a correct mail or not, thus field cannot be empty etc 
+    Just add required which is by default true it wont let it be empty and is called presence validation 
+     
+
+    <input type="password" pattern=".{8,12}" required title="Enter 8 to 12 characters" placeholder="password" name="password">
+
+
+     -->
+    
+    <!DOCTYPE html>
+    <html>
+    <head>
+    	<title>Form demo</title>
+    </head>
+    <body>
+
+    	<h1>Login</h1>
+    	<form action="http://google.com">
+    	
+    	<label>
+    	       Username:
+    	       <input type="text" name="username" placeholder="username" required>
+        	
+    	</label>
+
+        <label>
+    	       Email:
+    	       <input type="Email" name="Email" placeholder="mail" required>
+        	
+    	</label>
+
+
+        <label for="password">Password:</label>
+    	<input id="password" type="password" name="Test123" placeholder="password">
+        <input type="Submit">
+
+    	</form>
+            
+    </body>
+    </html>

@@ -1,0 +1,87 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise:slides</title>
+</head>
+<body>
+	<h1>Register</h1>
+ <form>
+ 	
+<div> 
+ 	<label>FirstName:
+ 	  	<input type="text" placeholder="John">
+    </label>
+
+ 	<label for="last">LastName:</label>
+ 	<input type="text" id="last" placeholder="smith">
+</div>
+
+<div>    
+    <label for="m">Male</label>
+ 	<input type="radio" id="m" name="gender">
+    
+    <label for="f">Female</label>
+ 	<input type="radio" id="f" name="gender">
+    
+    <label for="o">other</label>
+ 	<input type="radio" id="o" name="gender">
+</div>
+
+
+<div>    
+    <label>Email:
+      <input type="Email" placeholder="Email" name="Email" required>
+    </label>
+    <label>
+    	Password:
+    	<input type="password" pattern=".{8,12}" required title="Enter 8 to 12 characters" placeholder="password" name="password">
+    </label>
+</div>    
+    
+
+<div>
+    <label>
+    	Birthday:
+        <select name="month">
+        	<option>month</option>
+        	<option>Jan</option>
+            <option>feb</option>
+            <option>mar</option> 
+            <option>apr</option> 
+            <option>may</option>  
+            <option>june</option>     
+        </select>
+
+        <select name="Year">
+        	<option>year</option>
+            <option>1995</option> 
+            <option>1996</option> 
+            <option>1997</option>
+            <option>1998</option> 
+        	<option>1999</option> 
+        </select>
+
+        <select name="day">
+        	<option>day</option>
+        	<option>1</option>
+        	<option>2</option>
+        	<option>3</option>
+        </select> 
+
+    </label>
+</div>
+
+<div>
+    <label>I agree to the terms and conditions
+    <input type="checkbox">
+    </label>
+    <br>
+</div>
+
+    <button>
+    	Submit
+    </button>    
+
+</form>
+</body>
+</html>
