@@ -1,0 +1,28 @@
+
+
+*{/* Stra:This will apply to each and every tag of the html*/
+	border: 2px solid lightgrey;
+}
+li a{ /*Desendent selector:every anchor inside of li */
+    color: red;
+}
+
+/*Adjacent selector: sibling with same indentation*/
+h4 + ul {
+	border: 8px solid grey;
+}
+/*Attribute selector:based on any attributes eg:href="something,
+";, input[type="checkbox"]{someattribute},etc. */
+
+a[href="https://www.google.com"] {
+	background: blue;      
+}
+
+/* nth of type: takes a no
+ and select every nth of that element
+  in a group every third li will be selected 
+ */
+
+ li:nth-of-type(even){
+ 	background: purple;
+ }

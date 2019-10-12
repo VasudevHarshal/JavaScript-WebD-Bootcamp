@@ -1,0 +1,17 @@
+li{
+	border: 2px solid red;
+}
+/*# for id
+text-decoration is for line through underline etc
+*/
+#special{
+	background: yellow;
+}
+
+#other{
+	background: blue;
+}
+
+ .completed{
+   text-decoration: line-through;	
+ }

@@ -1,0 +1,77 @@
+<!-- 
+  Css also follow inheritance as you do changes 
+   eg:ul{
+			color: red;
+		}
+	once we do that all the <li><li> nested inside will
+	turn red but if 
+	li{
+	  color:blue;
+	}	
+    ID selectors>Class,Attributes and pseudo-Class selectors>Type Selectors
+
+    Type Selectors:
+     li{
+	
+     }
+     li a{
+	
+     }
+     li+a{
+	
+     }
+     then: li+a>= li a >li
+    Attributes,class,Pseudo-class:
+    input[type="text"]{
+	
+    }
+    .hello{
+	
+    }
+    a:hover or input:checked
+    
+    Id:
+    #Hi{
+	
+    }
+
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Speciality</title>
+	<style type="text/css">
+		ul{
+			color: red;
+		}
+		li{
+			color: blue;
+		}
+		body{
+			color: black;
+		}
+        
+        .high{    
+        	color: green;
+        }
+        #special{  /*wins*/
+        	color: pink;
+        }
+	</style>
+</head>
+<body>
+     <p>Hello!!</p>
+
+     <ul>
+     	<li class="high" id="special">John</li>
+     	<li>Paul</li>
+     	<li>George</li>
+     	<li class="high">Ringo</li>
+
+     </ul>
+
+ <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">Specificity_MDN</a>
+ <br>
+ <a href="https://specificity.keegan.st/">Specificity_Calculator</a>
+</body>
+</html>

@@ -1,0 +1,96 @@
+/*
+   selector{
+		Property: value;
+   }
+
+   
+   Types: 
+		   1:Inline- <h1 style= "color:pink;">
+		   Disadv- Will have to repeat for similar content 
+		         - Can't work in teams
+		   2:Script-<head>
+			      <style type="text/css">
+	                     h1{
+							color:pink;
+	                    }
+			      <style>
+		    </head> 
+		    Disadv- If two similar tag wants different css then an issue it executes the last one;
+                  - Can't work on teams
+
+           3: Reference- <head>
+				           <link rel="stylesheet" type="text/css" href="App.css"      
+				      </head>     
+
+            Colors System:
+
+            1:Hexadecimal
+		      # is called octathore 
+		      Colors are represented in hexadecimal
+		      0 1 2 3 4 5 6 7 8 9 A B C D E F
+              6-digits number base 16
+              _ _ _ _ _ _
+              first two is for how much "Red"
+              next two for "Green"
+              next two for how much "Blue"
+
+            2:RGB base 10 i.e(000 to 255) 
+              Syntax
+			  h1{
+					color:rgb(0,255,0);
+                 }
+
+            3:RGBA 
+              A-alpha is for transparencey
+              ranges from 0.0-1.0
+
+
+     Background and borders:
+
+          h4{
+	          backgrounf: rgb(0,20,50);
+          }
+
+        ```background-repeat: no-repeat;```
+        If there is a small image it will be repeated 
+        this will set that image to non-repeat but still small
+        To make it stretrch amd cover the entire background
+        ```background-size: cover;```
+
+*/ 
+
+/*
+  border-color: ;
+  width: ;
+  style: ;
+  works iff all 3 are there
+
+  can use 
+
+  border: 200px solid pink;
+
+  instead of all 3 above
+*/
+h1{
+	color: #FFFFFF;
+    border-color: pink;   /*This alone won't work as there is no width 
+    in the border*/
+    width: 200px;
+    border-style: solid;  
+
+}
+
+h4{
+	color: rgb(0,0,0);
+}
+
+li{
+	color: rgba(0,200,100,1);
+	background: rgb(240,240,200);
+}
+
+body{
+	background: url(https://i.pinimg.com/originals/db/1d/d2/db1dd2566264bd67962dd9bb5fd65644.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
