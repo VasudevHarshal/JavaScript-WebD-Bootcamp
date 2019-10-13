@@ -1,0 +1,30 @@
+p{
+	/*Boreders   
+	*/
+	border: 2px solid blue;
+
+	/*width and legth
+        
+      witdh:200px or 50%; 50%of parent 
+      and will change as per page
+	
+
+	*/
+	width: 50%;
+
+	/*Padding*/
+
+		/*padding: 10px;  over all*/
+	padding: 10px;
+
+	/*Margin: spaces b/w elemnts
+	margin: 50px;
+    or can do all 4 margin:top right bottom left ;
+	margin:auto; can also be done
+	if 
+	margin: 50px 20px; i.e top/bottom=50px
+	and left/right=20px;
+	*/
+	margin: 20px 40px 80px 20px;
+ 
+}
