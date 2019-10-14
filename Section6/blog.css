@@ -1,0 +1,57 @@
+/*
+    Inside body{
+	         max-width:700px;
+	         width:80%;
+
+	         note:The above code will keep the border at 700px
+	         while changing the dimension of browser tab as soon as
+	         tab itself gets less than 700px including the margin
+	         it will start suizing the border accordingly
+    }
+    .date{
+	letter-spacing: 10rem;
+	note:While em is relative to the font-size of its direct or nearest parent,
+	 rem is only relative to the html (root) font-size
+    
+     If you haven't set the font size anywhere on the page, then it is the browser default,
+     which is often 16px. So, by default 1em = 16px, and 2em = 32px.
+     If you set a font-size of 20px on the body element, then 1em = 20px and 2em = 40px. 
+     Note that the value 2 is essentially a multiplier of the current em size.
+    }
+
+    <div style="font-size:16px">
+         <p style="font-size:2em"></p>  then this will be 32px relative to its parent
+    <div>
+
+
+    rem by default=16px so,
+    2rem=32px everywhere untill you customise the
+    rem value
+
+    background-image:line gradient();  read about it
+*/
+
+
+body{
+	border:10px solid #BDC3C7;
+	margin: 20px 250px 20px 250px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+    
+}
+.date{
+	letter-spacing: 1px;
+	color: #3498db;
+	text-transform: uppercase;
+}
+h2{
+	color:#2c3e50;
+	font-size: 200%;
+}
+.border{
+	border-left: 8px solid #BDC3C7;
+	padding: 5px;
+}
+hr{
+   color:#BDC3C7
+}
