@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <style type="text/css">
+    	.navbar{
+    		background:rgba(0,0,0,0.5);
+    	}
+    	.jumbotron{
+    		color: #2c3e50;
+    	}/*
+    	.pic{
+    		border:1px solid rgba(0,0,0,0.3); 
+            margin: 5px;
+            width: 100%;
+            padding: 2px; 
+
+    	}*/
+    	.navbar-inverse .navbar-nav>li>a{
+    		color: white;
+    	} 
+    	
+    	body{
+    		padding-top: 70px;
+    	}
+    </style>
+</head>
+<body>
+    <nav class="navbar nav-inverse navbar-fixed-top">
+    	<div class="container">
+    		<div class="navbar-header">
+    			<!-- Hamberg -->
+    			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+			    </button>
+
+			    <a href="#" class="navbar-brand">
+                <span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
+			    IMGS</a>
+    		</div>
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		     	<ul class="nav navbar-nav">
+		     		<li><a href="#"> About</a></li>
+		     		<li><a href="#"> Contact</a></li>
+		     	</ul>
+		     	<ul class="nav navbar-nav navbar-right color">   
+		     		<li><a href="#"> Sign-up</a></li>
+		     		<li><a href="#"> Log-in</a></li>
+		     	</ul>
+		    </div>
+
+    		
+    	</div>
+    </nav>
+
+    <div class="container">
+    		<div class="jumbotron">
+    			<h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+	                 The Image Gallery</h1>
+    			<p>A bunch of beautifull images</p>
+    		</div>
+    
+    <div class="row">
+
+    		<div class="col-lg-4 col-md-6 col-sm-12 ">
+    			<div class="thumbnail">
+    				<img src="https://www.heritagecouncil.ie/content/projects/_project/landscapes.jpg">
+    			</div>
+    	    </div> 
+    		<div class="col-lg-4 col-md-6 col-sm-12 ">
+    			<div class="thumbnail">
+    				<img src="https://www.heritagecouncil.ie/content/projects/_project/landscapes.jpg">
+    			</div>
+    	    </div> 
+    		<div class="col-lg-4 col-md-6 col-sm-12 ">
+    			<div class="thumbnail">
+    				<img src="https://www.heritagecouncil.ie/content/projects/_project/landscapes.jpg">
+    			</div>
+    	    </div> 
+    	    
+
+    		<div class="col-lg-4 col-md-6 col-sm-12 ">
+    			<div class="thumbnail">
+    				<img src="https://www.heritagecouncil.ie/content/projects/_project/landscapes.jpg">
+    			</div>
+    	    </div> 
+    		<div class="col-lg-4 col-md-6 col-sm-12 ">
+    			<div class="thumbnail">
+    				<img src="https://www.heritagecouncil.ie/content/projects/_project/landscapes.jpg">
+    			</div>
+    	    </div> 
+    		<div class="col-lg-4 col-md-6 col-sm-12 ">
+    			<div class="thumbnail">
+    				<img src="https://www.heritagecouncil.ie/content/projects/_project/landscapes.jpg">
+    			</div>
+    	    </div> 
+    	    
+    		
+    		<div class="col-lg-4 col-md-6 col-sm-12">
+    			<div class="thumbnail">
+    				<img src="https://www.heritagecouncil.ie/content/projects/_project/landscapes.jpg">
+    			</div>
+    	    </div> 
+    		<div class="col-lg-4 col-md-6 col-sm-12 ">
+    			<div class="thumbnail">
+    				<img src="https://www.heritagecouncil.ie/content/projects/_project/landscapes.jpg">
+    			</div>
+    	    </div> 
+    		<div class="col-lg-4 col-md-6 col-sm-12 ">
+    			<div class="thumbnail">
+    				<img src="https://www.heritagecouncil.ie/content/projects/_project/landscapes.jpg">
+    			</div>
+    	    </div> 
+    	    
+
+
+
+    		<!-- <div class="col-lg-4 col-md-6 col-sm-1  pink"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="pic thumbnail"></div>
+    		<div class="col-lg-4 col-md-6 col-sm-1  pink"><img src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="pic thumbnail"></div>
+
+    		<div class="col-lg-4 col-md-6 col-sm-1  pink"><img src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="pic thumbnail"></div> 
+    		<div class="col-lg-4 col-md-6 col-sm-1  pink"><img src="https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="pic thumbnail"></div>
+    		<div class="col-lg-4 col-md-6 col-sm-1  pink"><img src="https://images.unsplash.com/photo-1419064642531-e575728395f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="pic thumbnail"></div>
+	
+
+	    
+    		<div class="col-lg-4 col-md-6 col-sm-1  pink"><img src="https://images.unsplash.com/photo-1419064642531-e575728395f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="pic thumbnail"></div> 
+    		<div class="col-lg-4 col-md-6 col-sm-1  pink"><img src="https://images.unsplash.com/photo-1469827160215-9d29e96e72f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="pic thumbnail"></div>
+    		<div class="col-lg-4 col-md-6 col-sm-1  pink"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="pic thumbnail"></div> -->
+	</div>
+	</div>
+
+<a href="https://unsplash.com/s/photos/landscape">Pictures</a>
+
+<!--Syntax:glyphicon: <span class="glyphicon glyphicon-search" aria-hidden="true"></span> -->
+
+<a href="https://getbootstrap.com/docs/3.4/components/#glyphicons">bootSGlyphicons_Symbols</a>
+     
+<!-- jquery should comes before js file -->
+<script
+  src="http://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+     
+ <!-- JS for bootstap -->
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+</body>
+</html>

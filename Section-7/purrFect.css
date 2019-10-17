@@ -1,0 +1,45 @@
+body nav{
+	background-color: lightpink;
+}
+
+/*syntax: offset-x | offset-y | blur-radius | color 
+text-shadow: 1px 1px 2px black; 
+
+for droping a shadow from text
+*/
+body{
+	background:url(https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2017/docatspurrwh.jpg); 
+	background-size: cover;
+	background-position: center;
+    color: white;
+	font-family: 'Lato', sans-serif;
+
+
+}
+/*Padding-top:25%;
+ coz when the browser's tab will be small large it will adjust.
+
+background-position: center;
+to make the center of image the center of page.
+ 
+Here we are adding multiple layer of the same color.
+ */
+#context{
+	text-align: center;
+	padding: 20%;
+    	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+    	             0px 8px 13px rgba(0,0,0,0.1),
+    	             0px 18px 23px rgba(0,0,0,0,0.1);	
+}
+h1, h3{
+	font-weight: 700;
+	font-size: 4em;
+}
+hr{
+	color: black;
+	height: 2px;
+	width:400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0);
+
+}

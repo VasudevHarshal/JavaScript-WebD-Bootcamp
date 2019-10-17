@@ -1,0 +1,77 @@
+<!-- Every container scales up to 12 columns
+	we can pic howmany of those 12grid each 
+	element can take up.
+
+Class prefix	.col-xs-	.col-sm-	.col-md-	.col-lg-
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GRID SYSTEM</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<style type="text/css">
+	.pink{
+		background: pink;
+		border: 1px solid purple;
+	}
+	.orange{
+		background: orange;
+		border: 1px dashed red;
+	}
+</style>
+
+</head>
+<body>
+    
+    <div class="container">
+    	<!-- <div class="row">
+    		<div class="col-lg-1  col-md-2  pink">col lg 1</div>
+    		<div class="col-lg-1 col-md-2  pink">col lg 1</div>
+    		<div class="col-lg-1 col-md-2  pink">col lg 1</div>
+    		<div class="col-lg-1 col-md-2  pink">col lg 1</div>
+    		<div class="col-lg-1 col-md-2  pink">col lg 1</div>
+    		<div class="col-lg-1 col-md-2  pink">col lg 1</div>
+    		<div class="col-lg-1  col-md-2 pink">col lg 1</div>
+    		<div class="col-lg-1 col-md-2  pink">col lg 1</div>
+    		<div class="col-lg-1 col-md-2  pink">col lg 1</div>
+    		<div class="col-lg-1 col-md-2  pink">col lg 1</div>
+    		<div class="col-lg-1 col-md-2  pink">col lg 1</div>
+    		<div class="col-lg-1 col-md-2  pink">col lg 1</div>
+    	</div> -->
+        <!-- <div class="row">
+    		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 pink">col lg 4</div> 
+    		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 pink">col lg 4</div>
+    		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 pink">col lg 4</div>
+    		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 pink">col lg 4</div>
+    	</div> -->
+
+        <!-- Nesting grid 
+         If col-md-3 is done and -lg is not mentioned
+         it takes col-lg-3 by default
+        -->
+        <div class="row">
+    		<div class="col-md-3 col-sm-6 pink">
+	            <div class="row">   <!-- there must be a row to do nested grid -->
+	            	<div class="col-lg-6 orange">First Half</div>
+	            	<div class="col-lg-6 orange">Second Half</div>
+	            </div>    
+    		</div> 
+    		<div class="col-md-3 col-sm-6 pink">
+    			<div class="row">   <!-- there must be a row to do nested grid -->
+	            	<div class="col-lg-2 orange">First Half</div>
+	            	<div class="col-lg-2 orange">Second Half</div>
+	            	<div class="col-lg-2 orange">First Half</div>
+	            	<div class="col-lg-2 orange">Second Half</div>
+	            	<div class="col-lg-2 orange">First Half</div>
+	            	<div class="col-lg-2 orange">Second Half</div>
+	            </div>
+    		</div>
+    		<div class="col-md-3 col-sm-6 pink">Tour Date</div>
+    		<div class="col-md-3 col-sm-6 pink">Tour Date</div>
+    	</div>
+
+    </div>
+</body>
+</html>
